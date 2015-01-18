@@ -8,16 +8,11 @@ Layouts
 - DrawerLayout
 
 Views
-- TextView
-- EditText
-- Button
-- Checkbok
-- Radiobutton
-- Spinner
-- RatingBar
-- Pickers
-- WebView
-
 Menus
-
 Dialogs
+
+<b>Projeto 02 - Intents</b>
+<b>Projeto 03 - Storage</b>
+<b>Projeto 04 - HttpClient</b>
+<b>Projeto 05 - Service</b>
+<b>Projeto 05 - BroadcastReceiver</b>
