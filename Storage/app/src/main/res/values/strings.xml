@@ -22,5 +22,9 @@
     <string name="title_activity_buscar">BuscarActivity</string>
     <string name="title_activity_sugar">SugarActivity</string>
     <string name="title_activity_shared_preferences">SharedPreferencesActivity</string>
+    <string name="title_activity_cadastrar_sqlite">CadastrarSQLiteActivity</string>
+    <string name="title_activity_buscar_sqlite">BuscarSQLiteActivity</string>
+    <string name="title_activity_atualizar_sqlite">AtualizarSQLiteActivity</string>
+    <string name="title_activity_apagar_sqlite">ApagarSQLiteActivity</string>
 
 </resources>

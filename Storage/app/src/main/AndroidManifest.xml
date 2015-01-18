@@ -59,6 +59,22 @@
             android:name=".spreferences.SharedPreferencesActivity"
             android:label="@string/title_activity_shared_preferences" >
         </activity>
+        <activity
+            android:name=".sqlite.CadastrarSQLiteActivity"
+            android:label="@string/title_activity_cadastrar_sqlite" >
+        </activity>
+        <activity
+            android:name=".sqlite.BuscarSQLiteActivity"
+            android:label="@string/title_activity_buscar_sqlite" >
+        </activity>
+        <activity
+            android:name=".sqlite.AtualizarSQLiteActivity"
+            android:label="@string/title_activity_atualizar_sqlite" >
+        </activity>
+        <activity
+            android:name=".sqlite.ApagarSQLiteActivity"
+            android:label="@string/title_activity_apagar_sqlite" >
+        </activity>
     </application>
 
 </manifest>
