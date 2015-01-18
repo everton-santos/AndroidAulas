@@ -1,12 +1,36 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.android.josias.storage.spreferences.SharedPreferencesActivity">
+    android:orientation="vertical"
+    tools:context="com.android.josias.storage.sugar.CadastrarActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etMatricula"
+        android:hint="Matricula ..."
+        android:text="123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etNome"
+        android:hint="Nome ..."
+        android:text="Josias"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-</RelativeLayout>
+    <Button
+        android:text="Salvar"
+        android:onClick="saveSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Buscar"
+        android:onClick="getSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

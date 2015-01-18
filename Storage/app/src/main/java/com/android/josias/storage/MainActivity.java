@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
+import com.android.josias.storage.spreferences.SharedPreferencesActivity;
 import com.android.josias.storage.sugar.SugarActivity;
 
 
@@ -18,6 +19,11 @@ public class MainActivity extends ActionBarActivity {
 
     public void openSugar(View v){
         Intent i = new Intent(this, SugarActivity.class);
+        startActivity(i);
+    }
+
+    public void openSP(View v){
+        Intent i = new Intent(this, SharedPreferencesActivity.class);
         startActivity(i);
     }
 
