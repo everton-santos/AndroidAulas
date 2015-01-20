@@ -7,10 +7,10 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
+import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
-
 
     /*
     * Exemplo BR TimerTick
@@ -30,12 +30,17 @@ public class MainActivity extends ActionBarActivity {
         };
 
         registerReceiver(br, new IntentFilter(Intent.ACTION_TIME_TICK));
-
     }
 
     @Override
     protected void onDestroy() {
         unregisterReceiver(br);
         super.onDestroy();
+    }
+
+    public void startMyBR(View v){
+        Intent intent = new Intent();
+        intent.setAction("com.android.josias.broadcastreceiver.MYRECEIVER");
+        sendBroadcast(intent);
     }
 }
