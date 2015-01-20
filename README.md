@@ -12,6 +12,6 @@
 
 <b>Projeto 04 - HttpClient</b>
 
-<b>Projeto 05 - Service</b>
+<b>Projeto 05 - AndroidService</b>
 
 <b>Projeto 05 - BroadcastReceiver</b>
